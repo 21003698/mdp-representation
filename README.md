@@ -1,30 +1,34 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+The representation of real world scenario using Markov Decision Process by stating all the states,actions and environment with respective rewards.
 
 ## PROBLEM STATEMENT:
-
+```
+Developed By:Challa Sandeep
+Registration No: 212221240011
+```
 ### Problem Description
-Write your answer here
+A Man who is standing on the road which is a junction point and thinking about whether to walk left or right
 
 ### State Space
-Write your answer here
+{0,1,2} = {Left way,Current position,Right way}
 
 ### Sample State
-Write your answer here
+{1} = {Current position}
 
 ### Action Space
-Write your answer here
+{0,1,2} = {Walking to left , Being in current position , Walking to right} 
 
 ### Sample Action
-Write your answer here
+{2} = {Walking to right}
 
 ### Reward Function
-Write your answer here
++1 If he reaches the goal state that is walking to right way
+0 Otherwise
 
 ### Graphical Representation
-Write your answer here
+
 
 ## PYTHON REPRESENTATION:
 Write your code here
