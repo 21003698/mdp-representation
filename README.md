@@ -28,14 +28,36 @@ A Man who is standing on the road which is a junction point and thinking about w
 0 Otherwise
 
 ### Graphical Representation
-
+![Rl graph](https://github.com/user-attachments/assets/237ead78-9b53-4f91-9b45-313c83eee2c0)
 
 ## PYTHON REPRESENTATION:
-Write your code here
+```
+# Creating Dictionary
+P={
+    0:{
+        0:[(0.0,0,1.0,False)],
+        1:[(1,0,1.0,False)]
+        
+    },
+    1:{
+        0:[(0,0,0.8,False),(0,2,0.2,True)],
+        1:[(1,2,0.8,True),(1,0,0.2,False)]
+       
+    },
+    2:{
+        0:[(0,2,1.0,False)],
+        1:[(1,2,1.0,False)]
+       
+    }
+}
+```
 
-## OUTPUT:
-Write your Python output here
+### OUTPUT:
+<img width="336" alt="image" src="https://github.com/user-attachments/assets/ed05bc46-d15f-43d9-ad3a-9255d6b6a047">
 
-## RESULT:
-Write your output here
+
+### RESULT:
+Therefore an MDP representation has been created for a real world scenario with all the states, actions and rewards.
+
+
 
