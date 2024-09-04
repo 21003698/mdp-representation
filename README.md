@@ -35,25 +35,25 @@ A Man who is standing on the road which is a junction point and thinking about w
 # Creating Dictionary
 P={
     0:{
-        0:[(0.0,0,1.0,False)],
-        1:[(1,0,1.0,False)]
+        0:[(1.0,0,0,False)],
+        1:[(1.0,0,1,False)]
         
     },
     1:{
-        0:[(0,0,0.8,False),(0,2,0.2,True)],
-        1:[(1,2,0.8,True),(1,0,0.2,False)]
+        0:[(0.8,0,0,False),(0.2,2,0,True)],
+        1:[(0.8,2,1,True),(0.2,0,1,False)]
        
     },
     2:{
-        0:[(0,2,1.0,False)],
-        1:[(1,2,1.0,False)]
+        0:[(1.0,2,0,False)],
+        1:[(1.0,2,1,False)]
        
     }
 }
 ```
 
 ### OUTPUT:
-<img width="336" alt="image" src="https://github.com/user-attachments/assets/ed05bc46-d15f-43d9-ad3a-9255d6b6a047">
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/46d98b31-7aaa-41ef-8b01-3823dc52d302">
 
 
 ### RESULT:
